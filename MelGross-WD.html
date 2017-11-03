@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Mel Gross</title>
-</head>
-<body>
-  <!-- THIS IS THE NAVIGATION BAR WITH THE TREE MENU OPTION. THE LOGO IS CENTERED AND BIGGER THAN THE OTHER TWO OPTIONS THAT LEAD TO DIFFERENT PAGES-->
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+    <title></title>
+    <!--add normalize css sheet, then any font refernce, personalised css last-->
+  </head>
+  <body>
+     <!-- THIS IS THE NAVIGATION BAR WITH THE TREE MENU OPTION. THE LOGO IS CENTERED AND BIGGER THAN THE OTHER TWO OPTIONS THAT LEAD TO DIFFERENT PAGES-->
 	<nav>
 		<ul>
 			<li><a href="about.html">About</a></li>
@@ -12,45 +13,35 @@
 			<li><a href="perssonal.html">Personal Projects</a></li>
 		</ul>
 	</nav>
-<!--IN THE MAIN SECTION OF THE WEBSITE THE PROJECTS WILL BE EVENLY SPACED AND EACH PROJECT WILL CONSIST OF AN IMAGE, THE NAME OF THE COMPANY AND A DESCRIPTION OF THE KIND OF PROJECT IT IS. THE IMAGE AND NAMES WILL BE LINKS TO EACH OF THE PROJECT'S PAGE-->
-	<main id="projects">
-		<div class="zanshin">
-			<a href="zanshin.html"><img src="zanshin_cover.jpg" alt="Zanshin">
-			<h3>Zanshin</h3></a>
-			<H4>Logo Design</H4>
-		</div>
-		<div class="npc">
-			<a href="npc.html"><img src="npc_cover.jpg" alt="Newton presbyterian Church">
-        <h3>Newton presbyterian Church</h3></a>
-			<H4>Website Design</H4>
-		</div>
-		<div class="paintbar">
-			<a href="paintbar.html"><img src="paintbar_cover.jpg" alt="The Paint Bar">
-        <h3>The Paint Bar</h3></a>
-			<H4>Video Production</H4>
-		</div>
-		<div class="recrea_mundo">
-			<a href="recreamundo.html"><img src="recrea_mundo_cover.jpg" alt="Recrea Mundo">
-        <h3>Recrea Mundo</h3></a>
-			<H4>Logo Design</H4>
-		</div>
-		<div class="leap">
-			<a href="leap.html"><img src="leap_cover.jpg" alt="LeAp">
-        <h3>LeAp NYC</h3></a>
-			<H4>Website Design</H4>
-		</div>
-	</main>
-<!--THIS IS THE FOOTER WHERE THE SOCIAL MEDIA ICONS WILL BE SIDE BY SIDE, LINKING TO MY PAGES-->
-	<footer>
-		<div class"social_media">
-      <a href="#"><img scr="instagram_logo.jpg" alt="Instagram"></a>
-      <a href="#"><img scr="email_logo.jpg" alt="Email"></a>
-      <a href="#"><img scr="linkedin_logo.jpg" alt="LinkedIn"></a>
-      <a href="#"><img scr="patreon_logo.jpg" alt="Patreon"></a>
-		</div>
-		<div>
-			<p> Rights:Mel Gross</p>
-		</div>
-	</footer>
-</body>
-</html>
+  <main>
+    <figure>
+      <img src=profile.jpg alt="A picture of me">
+      <figcaption>This is how my face looks like</figcaption>
+    </figure>
+    <aside>
+      <p id=about>
+        <!--a paragraph or two about me-->
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla magna, rhoncus eu imperdiet id, gravida vitae augue. Mauris sit amet purus elementum, dignissim mauris sit amet, vulputate massa. Nulla facilisi. Vivamus id consequat elit. Nam justo est, aliquet nec ultrices sit amet, convallis sed felis. Curabitur aliquet nulla lectus, ac mollis ante maximus vitae. Ut tincidunt feugiat sapien eget mattis. Ut blandit tincidunt ultricies. Nulla commodo hendrerit condimentum. Integer nec dapibus diam. Integer finibus sollicitudin efficitur.
+
+Etiam et eros volutpat, volutpat quam eu, efficitur arcu. Proin egestas ligula in neque congue, at laoreet magna varius. Nam faucibus neque nec libero eleifend, et suscipit sapien euismod. Vivamus pretium mattis dictum. Donec sollicitudin porta euismod. Morbi mi erat, malesuada at dolor in, imperdiet iaculis leo. Cras at eros eu est vehicula pretium ut a diam. Suspendisse faucibus mauris id gravida fermentum. Quisque blandit sollicitudin augue ac iaculis. Vestibulum feugiat efficitur molestie.
+      </p>
+    </aside>
+    <div id=socialMedia>
+      <!--make this into rows and collums (divs that have rows and columns as the class-->
+      <div class=SMlinks>
+        <a href="#"><img src="instagram.jpg" alt=Instagram></a>
+      </div>
+      <div class=SMlinks>
+        <a href="#"><img src="portfolio.jpg" alt=Portfolio></a>
+      </div>
+      <div class=SMlinks>
+        <a href="#"><img src="linkedin.jpg" alt=LinkedIn></a>
+      </div>
+      <div class=SMlinks>
+        <a href="#"><img src="patreon.jpg" alt=Patreon></a>
+      </div>
+    </div>
+  </main>
+
+  </body>
+</HTML>
